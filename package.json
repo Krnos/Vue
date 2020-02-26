@@ -1,6 +1,6 @@
 {
   "name": "@krnos/vue",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An vue project",
   "license": "MIT",
   "homepage": "https://Krnos.github.io/vue/",
@@ -25,7 +25,10 @@
   },
   "dependencies": {
     "@controlla/controlla-postinstall": "^1.0.21",
+    "change-case": "^4.1.1",
     "core-js": "^3.3.2",
+    "laravel-echo": "^1.5.3",
+    "pluralize": "^8.0.0",
     "vue": "^2.6.10"
   },
   "files": [
@@ -63,11 +66,8 @@
     "babel-preset-vue": "^2.0.2",
     "babel-jest": "^23.6.0",
     "eslint": "^5.16.0",
-    "eslint-config-prettier": "^6.5.0",
-    "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-vue": "^5.0.0",
     "husky": "^2.7.0",
-    "prettier": "^1.18.2",
     "pug": "^2.0.3",
     "pug-plain-loader": "^1.0.0",
     "standard-version": "^6.0.1",
