@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
-import parseDeleteMany from '@/utils/parseDeleteMany'
-import parseVuexObject from '@/utils/parseVuexObject'
+import parseDeleteMany from '../utils/parseDeleteMany'
+import parseVuexObject from '../utils/parseVuexObject'
 import { camelCase, snakeCase } from 'change-case'
 import pluralize from 'pluralize'
 
