@@ -1,8 +1,5 @@
 /* eslint-disable prettier/prettier */
 import Echo from 'laravel-echo'
-import { ModalMixin } from './mixins/ModalMixin'
-import { ViewMixin } from './mixins/ViewMixin'
-import { ViewMixinMaster } from './mixins/ViewMixinMaster'
 
 let echoOptions = {
   namespace: false,
@@ -74,7 +71,3 @@ export default {
     })
   }
 }
-
-export { ModalMixin }
-export { ViewMixin }
-export { ViewMixinMaster }
