@@ -1,15 +1,10 @@
 <template lang="pug">
   #app
-    v-doc-viewer
 </template>
 
 <script>
-import { vue } from './index'
 export default {
-  name: 'App',
-  components: {
-    vue
-  }
+  name: 'App'
 }
 </script>
 <style lang="stylus">
