@@ -9,12 +9,7 @@ let echoOptions = {
   encrypted: true,
   forceTLS: false,
   disableStats: true,
-  auth: {
-    headers: {
-      Authorization: `Bearer ${localStorage.getItem('default_auth_token')}`
-    }
-  },
-  enabledTransports: ['ws', 'flash']
+  enabledTransports: ['ws', 'wss', 'flash']
 }
 
 export default {
