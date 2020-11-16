@@ -5,11 +5,11 @@ let echoOptions = {
   broadcaster: 'pusher',
   wsHost: 'ws.controlla.com.mx',
   wsPort: 6001,
+  wssHost: 'ws.controlla.com.mx',
   wssPort: 6001,
-  encrypted: true,
-  forceTLS: false,
+  encrypted: false,
   disableStats: true,
-  enabledTransports: ['ws', 'wss', 'flash']
+  enabledTransports: ['ws', 'wss']
 }
 
 export default {
