@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.17](https://github.com/Krnos/vue/compare/v0.1.16...v0.1.17) (2020-11-16)
+
+
+### Bug Fixes
+
+* remove wss ([73cd87a](https://github.com/Krnos/vue/commit/73cd87abd2f4cbb0c530244362722fa862b015b0))
+
 ### [0.1.16](https://github.com/Krnos/vue/compare/v0.1.15...v0.1.16) (2020-11-16)
 
 ### [0.1.15](https://github.com/Krnos/vue/compare/v0.1.14...v0.1.15) (2020-11-16)
