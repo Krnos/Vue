@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
-import * as vue from './index'
+import * as krnos from './index'
 
 Vue.config.productionTip = false
-Vue.use(vue)
+Vue.use(krnos)
 
 new Vue({
   render: h => h(App)
