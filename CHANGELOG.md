@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.5](https://github.com/Krnos/vue/compare/v0.1.3...v0.1.5) (2020-11-16)
+
+
+### Bug Fixes
+
+* import issue ([53f93e4](https://github.com/Krnos/vue/commit/53f93e4dbb6b3c2ae63fb0210c5aa2ec2facc2b4))
+* import library issue ([1b8f093](https://github.com/Krnos/vue/commit/1b8f093d55742ed078fcc798bf24214d414798a5))
+* **mixins:** delete files ([ebec28a](https://github.com/Krnos/vue/commit/ebec28ade4eabe7ef13decb16cc25c8c0f308318))
+
 ### [0.1.4](https://github.com/Krnos/vue/compare/v0.1.3...v0.1.4) (2020-11-16)
 
 
