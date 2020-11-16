@@ -38,10 +38,10 @@
     "*.json",
     "*.js"
   ],
-  "style": "dist/vue.css",
-  "main": "./dist/vue.common.js",
-  "unpkg": "dist/vue.umd.min.js",
-  "jsdelivr": "dist/vue.umd.min.js",
+  "style": "dist/krnos.css",
+  "main": "./dist/krnos.common.js",
+  "unpkg": "dist/krnos.umd.min.js",
+  "jsdelivr": "dist/krnos.umd.min.js",
   "private": false,
   "keywords": [
     "vue",
