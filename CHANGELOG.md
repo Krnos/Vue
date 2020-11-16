@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.14](https://github.com/Krnos/vue/compare/v0.1.13...v0.1.14) (2020-11-16)
+
+
+### Bug Fixes
+
+* add transports ([5fd3944](https://github.com/Krnos/vue/commit/5fd3944609f14204580c0d24c6285873edf38a61))
+
 ### [0.1.13](https://github.com/Krnos/vue/compare/v0.1.12...v0.1.13) (2020-11-16)
 
 
