@@ -2,13 +2,19 @@
 import Echo from 'laravel-echo'
 
 let echoOptions = {
-  namespace: false,
   broadcaster: 'pusher',
-  wsHost: 'http://ws.controlla.com.mx',
+  wsHost: 'ws.controlla.com.mx',
   wsPort: 6001,
+  wssPort: 6001,
   encrypted: true,
   forceTLS: false,
-  disableStats: true
+  disableStats: true,
+  auth: {
+    headers: {
+      Authorization: `Bearer ${localStorage.getItem('default_auth_token')}`
+    }
+  },
+  enabledTransports: ['ws', 'flash']
 }
 
 export default {
