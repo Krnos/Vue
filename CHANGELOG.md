@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.13](https://github.com/Krnos/vue/compare/v0.1.12...v0.1.13) (2020-11-16)
+
+
+### Bug Fixes
+
+* update options ([0837843](https://github.com/Krnos/vue/commit/0837843176dfdb04a6467c4f9183825e9ba033f7))
+
 ### [0.1.12](https://github.com/Krnos/vue/compare/v0.1.11...v0.1.12) (2020-11-16)
 
 ### [0.1.11](https://github.com/Krnos/vue/compare/v0.1.10...v0.1.11) (2020-11-16)
