@@ -27,7 +27,7 @@
     "@controlla/controlla-postinstall": "^1.0.21",
     "change-case": "^4.1.1",
     "core-js": "^3.3.2",
-    "laravel-echo": "^1.5.3",
+    "laravel-echo": "^1.7.0",
     "pluralize": "^8.0.0",
     "vue": "^2.6.10"
   },
