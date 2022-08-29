@@ -3,11 +3,15 @@ import Echo from 'laravel-echo'
 
 let echoOptions = {
   broadcaster: 'pusher',
-  wsHost: 'ws.controlla.com.mx',
-  wsPort: 6001,
-  encrypted: false,
-  disableStats: true,
-  enabledTransports: ['ws', 'wss']
+  namespace: false,
+  encrypted: true,
+  cluster: 'mt1',
+  forceTLS: true,
+  auth: {
+    headers: {
+      Authorization: `Bearer ${localStorage.getItem('default_auth_token')}`
+    }
+  }
 }
 
 export default {
