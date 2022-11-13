@@ -3,9 +3,9 @@ import Echo from 'laravel-echo'
 
 let echoOptions = {
   broadcaster: 'pusher',
-  namespace: false,
+  csrfToken: document.head.querySelector('meta[name="csrf-token"]'),
+  cluster: 'us3',
   encrypted: true,
-  cluster: 'mt1',
   forceTLS: true,
   auth: {
     headers: {
